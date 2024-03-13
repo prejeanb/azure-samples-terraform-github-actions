@@ -12,8 +12,7 @@ terraform {
     storage_account_name = "tfgithubactionsbp"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
-    use_oidc             = true
-    storage_use_azuread  = true
+    use_oidc             = true  
   }
 }
 
